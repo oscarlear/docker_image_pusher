@@ -1,6 +1,6 @@
 #支持私库
 gitea/gitea:1.22.0
 postgres:14
-pull semaphoreui/semaphore:v2.10.11
+semaphoreui/semaphore:v2.10.11
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
