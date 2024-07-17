@@ -2,6 +2,5 @@
 gitea/gitea:1.22.0
 postgres:14
 semaphoreui/semaphore:v2.10.11
-docker pull registry:2.6.2
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
