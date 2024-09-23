@@ -1,6 +1,4 @@
 #支持私库
-golang:1.23.0-alpine3.20
-golang:1.22-alpine3.20
-alpine:3.20
+alpine/sqlite:3.45.3
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
