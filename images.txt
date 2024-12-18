@@ -1,5 +1,6 @@
 #支持私库
 --platform=linux/arm64 golang:1.19.4
 --platform=linux/arm64 alpine:3.14
+apache/apisix:3.11.0-debian
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
