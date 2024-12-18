@@ -3,5 +3,6 @@
 #--platform=linux/arm64 alpine:3.14
 #apache/apisix:3.11.0-debian
 busybox:1.28
+bitnami/etcd:3.5.10-debian-11-r2
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
