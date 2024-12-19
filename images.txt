@@ -1,9 +1,11 @@
 #支持私库
+#支持指定架构
+#--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/arm64 golang:1.19.4
 #--platform=linux/arm64 alpine:3.14
 #apache/apisix:3.11.0-debian
 #busybox:1.28
 #bitnami/etcd:3.5.10-debian-11-r2
-apache/apisix-dashboard:3.0.0-alpine
-#支持指定架构
-#--platform=linux/arm64 xiaoyaliu/alist
+#apache/apisix-dashboard:3.0.0-alpine
+--platform=linux/arm64 golang:1.23.0-alpine3.20
+--platform=linux/arm64 alpine:3.20
