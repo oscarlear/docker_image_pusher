@@ -14,19 +14,20 @@
 #--platform=linux/arm64 maven:3.8.1-openjdk-11 
 #kong/httpbin:0.2.1
 #networkstatic/iperf3:latest
+wiremock/wiremock:3.12.1
 
 # kubernetes v1.32.2 arm64 images
---platform=linux/arm64 registry.k8s.io/conformance:v1.32.2
---platform=linux/arm64 registry.k8s.io/kube-apiserver:v1.32.2
---platform=linux/arm64 registry.k8s.io/kube-controller-manager:v1.32.2
---platform=linux/arm64 registry.k8s.io/kube-proxy:v1.32.2
---platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.32.2
---platform=linux/arm64 registry.k8s.io/kubectl:v1.32.2
---platform=linux/arm64 calico/cni:v3.28.2
---platform=linux/arm64 calico/node:v3.28.2
---platform=linux/arm64 calico/kube-controllers:v3.28.2
---platform=linux/arm64 calico/typha:v3.28.2
---platform=linux/arm64 coredns/coredns:1.11.3
---platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.25.0
---platform=linux/arm64 k8s.gcr.io/metrics-server/metrics-server:v0.7.2
---platform=linux/arm64 k8s.gcr.io/pause:3.10
+#--platform=linux/arm64 registry.k8s.io/conformance:v1.32.2
+#--platform=linux/arm64 registry.k8s.io/kube-apiserver:v1.32.2
+#--platform=linux/arm64 registry.k8s.io/kube-controller-manager:v1.32.2
+#--platform=linux/arm64 registry.k8s.io/kube-proxy:v1.32.2
+#--platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.32.2
+#--platform=linux/arm64 registry.k8s.io/kubectl:v1.32.2
+#--platform=linux/arm64 calico/cni:v3.28.2
+#--platform=linux/arm64 calico/node:v3.28.2
+#--platform=linux/arm64 calico/kube-controllers:v3.28.2
+#--platform=linux/arm64 calico/typha:v3.28.2
+#--platform=linux/arm64 coredns/coredns:1.11.3
+#--platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.25.0
+#--platform=linux/arm64 k8s.gcr.io/metrics-server/metrics-server:v0.7.2
+#--platform=linux/arm64 k8s.gcr.io/pause:3.10
