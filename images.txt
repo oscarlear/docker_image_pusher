@@ -14,7 +14,16 @@
 #--platform=linux/arm64 maven:3.8.1-openjdk-11 
 #kong/httpbin:0.2.1
 #networkstatic/iperf3:latest
-wiremock/wiremock:3.12.1
+#wiremock/wiremock:3.12.1
+
+# bookinfo amd64 images
+docker.io/istio/examples-bookinfo-details-v1:1.20.2
+docker.io/istio/examples-bookinfo-ratings-v1:1.20.2
+docker.io/istio/examples-bookinfo-reviews-v1:1.20.2
+docker.io/istio/examples-bookinfo-reviews-v2:1.20.2
+docker.io/istio/examples-bookinfo-reviews-v3:1.20.2
+docker.io/istio/examples-bookinfo-productpage-v1:1.20.2
+
 
 # kubernetes v1.32.2 arm64 images
 #--platform=linux/arm64 registry.k8s.io/conformance:v1.32.2
