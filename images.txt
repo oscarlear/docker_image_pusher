@@ -17,12 +17,12 @@
 #wiremock/wiremock:3.12.1
 
 # bookinfo amd64 images
-docker.io/istio/examples-bookinfo-details-v1:1.20.2
-docker.io/istio/examples-bookinfo-ratings-v1:1.20.2
-docker.io/istio/examples-bookinfo-reviews-v1:1.20.2
-docker.io/istio/examples-bookinfo-reviews-v2:1.20.2
-docker.io/istio/examples-bookinfo-reviews-v3:1.20.2
-docker.io/istio/examples-bookinfo-productpage-v1:1.20.2
+#docker.io/istio/examples-bookinfo-details-v1:1.20.2
+#docker.io/istio/examples-bookinfo-ratings-v1:1.20.2
+#docker.io/istio/examples-bookinfo-reviews-v1:1.20.2
+#docker.io/istio/examples-bookinfo-reviews-v2:1.20.2
+#docker.io/istio/examples-bookinfo-reviews-v3:1.20.2
+#docker.io/istio/examples-bookinfo-productpage-v1:1.20.2
 
 
 # kubernetes v1.32.2 arm64 images
@@ -40,3 +40,18 @@ docker.io/istio/examples-bookinfo-productpage-v1:1.20.2
 #--platform=linux/arm64 k8s.gcr.io/dns/k8s-dns-node-cache:1.25.0
 #--platform=linux/arm64 k8s.gcr.io/metrics-server/metrics-server:v0.7.2
 #--platform=linux/arm64 k8s.gcr.io/pause:3.10
+
+# kubernetes v1.32.2 amd64 images
+registry.k8s.io/kube-apiserver:v1.32.2
+registry.k8s.io/kube-controller-manager:v1.32.2
+registry.k8s.io/kube-proxy:v1.32.2
+registry.k8s.io/kube-scheduler:v1.32.2
+registry.k8s.io/kubectl:v1.32.2
+calico/cni:v3.28.2
+calico/node:v3.28.2
+calico/kube-controllers:v3.28.2
+calico/typha:v3.28.2
+coredns/coredns:1.11.3
+k8s.gcr.io/dns/k8s-dns-node-cache:1.25.0
+k8s.gcr.io/metrics-server/metrics-server:v0.7.2
+k8s.gcr.io/pause:3.10
