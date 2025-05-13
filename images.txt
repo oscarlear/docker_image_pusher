@@ -41,7 +41,7 @@
 #--platform=linux/arm64 k8s.gcr.io/metrics-server/metrics-server:v0.7.2
 #--platform=linux/arm64 k8s.gcr.io/pause:3.10
 --platform=linux/arm64 jupiterone/imagepullsecret-patcher:0.14
-#--platform=linux/arm64 golang:1.13
+--platform=linux/arm64 golang:1.13
 
 # kubernetes v1.32.2 amd64 images
 #registry.k8s.io/conformance:v1.32.2
