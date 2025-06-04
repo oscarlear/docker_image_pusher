@@ -55,11 +55,11 @@
 #--platform=linux/arm64 goharbor/harbor-db:v2.7.0
 #--platform=linux/arm64 goharbor/redis-photon:v2.7.0
 #--platform=linux/arm64 goharbor/harbor-exporter:v2.7.0
---platform=linux/arm64 bitnami/harbor-portal:2.7.1
---platform=linux/arm64 bitnami/harbor-core:2.7.1
---platform=linux/arm64 bitnami/harbor-jobservice:2.7.1
---platform=linux/arm64 bitnami/harbor-registryctl:2.7.1
---platform=linux/arm64 bitnami/harbor-exporter:2.7.1
+#--platform=linux/arm64 bitnami/harbor-portal:2.7.1
+#--platform=linux/arm64 bitnami/harbor-core:2.7.1
+#--platform=linux/arm64 bitnami/harbor-jobservice:2.7.1
+#--platform=linux/arm64 bitnami/harbor-registryctl:2.7.1
+#--platform=linux/arm64 bitnami/harbor-exporter:2.7.1
 
 # kubernetes v1.32.2 amd64 images
 #registry.k8s.io/conformance:v1.32.2
@@ -78,3 +78,6 @@
 #k8s.gcr.io/pause:3.10
 #openebs/provisioner-localpv:3.3.0
 #openebs/linux-utils:3.3.0
+
+# middleware arm64 images
+--platform=linux/arm64 nginx:1.27.5-alpine
