@@ -80,4 +80,5 @@
 #openebs/linux-utils:3.3.0
 
 # middleware arm64 images
---platform=linux/arm64 nginx:1.27.5-alpine
+#--platform=linux/arm64 nginx:1.27.5-alpine
+--platform=linux/arm64 nginx:1.27.5
