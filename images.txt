@@ -81,4 +81,5 @@
 
 # middleware arm64 images
 #--platform=linux/arm64 nginx:1.27.5-alpine
---platform=linux/arm64 nginx:1.27.5
+#--platform=linux/arm64 nginx:1.27.5
+--platform=linux/arm64 nginx:1.28.0
