@@ -84,7 +84,8 @@
 #--platform=linux/arm64 nginx:1.27.5
 #--platform=linux/arm64 nginx:1.28.0
 
-calico/cni:v3.29.4
-calico/node:v3.29.4
-calico/kube-controllers:v3.29.4
-calico/typha:v3.29.4
+#calico/cni:v3.29.4
+#calico/node:v3.29.4
+#calico/kube-controllers:v3.29.4
+#calico/typha:v3.29.4
+haproxy:2.2.16-alpine
