@@ -89,5 +89,8 @@
 #calico/kube-controllers:v3.29.4
 #calico/typha:v3.29.4
 #haproxy:2.2.16-alpine
-golang:1.25.4-alpine
-alpine:3.22.2
+#golang:1.25.4-alpine
+#alpine:3.22.2
+nginx:1.29.3
+nginx:1.29-alpine3.22
+nginx:1.29.3-alpine3.22-slim
