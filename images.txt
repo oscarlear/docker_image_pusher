@@ -60,6 +60,7 @@
 #--platform=linux/arm64 bitnami/harbor-jobservice:2.7.1
 #--platform=linux/arm64 bitnami/harbor-registryctl:2.7.1
 #--platform=linux/arm64 bitnami/harbor-exporter:2.7.1
+--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 # kubernetes v1.32.2 amd64 images
 #registry.k8s.io/conformance:v1.32.2
@@ -91,6 +92,6 @@
 #haproxy:2.2.16-alpine
 #golang:1.25.4-alpine
 #alpine:3.22.2
-nginx:1.29.3
-nginx:1.29-alpine3.22
-nginx:1.29.3-alpine3.22-slim
+#nginx:1.29.3
+#nginx:1.29-alpine3.22
+#nginx:1.29.3-alpine3.22-slim
