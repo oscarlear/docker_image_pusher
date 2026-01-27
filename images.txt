@@ -95,3 +95,4 @@
 #nginx:1.29.3
 #nginx:1.29-alpine3.22
 #nginx:1.29.3-alpine3.22-slim
+nginx:1.29.4
