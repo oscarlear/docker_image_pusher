@@ -96,4 +96,15 @@
 #nginx:1.29-alpine3.22
 #nginx:1.29.3-alpine3.22-slim
 #nginx:1.29.4
-nginx:1.29-alpine3.23
+#nginx:1.29-alpine3.23
+
+mysql:8.4.8
+redis:7.4.7
+springcommunity/spring-petclinic-config-server:3.4.1
+springcommunity/spring-petclinic-discovery-server:3.4.1
+springcommunity/spring-petclinic-customers-service:3.4.1
+springcommunity/spring-petclinic-visits-service:3.4.1
+springcommunity/spring-petclinic-vets-service:3.4.1
+springcommunity/spring-petclinic-genai-service:3.4.1
+springcommunity/spring-petclinic-api-gateway:3.4.1
+springcommunity/spring-petclinic-admin-server:3.4.1
