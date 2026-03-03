@@ -84,6 +84,7 @@
 #--platform=linux/arm64 nginx:1.27.5-alpine
 #--platform=linux/arm64 nginx:1.27.5
 #--platform=linux/arm64 nginx:1.28.0
+--platform linux/arm64 node:20.11.1-alpine
 
 #calico/cni:v3.29.4
 #calico/node:v3.29.4
@@ -98,13 +99,13 @@
 #nginx:1.29.4
 #nginx:1.29-alpine3.23
 
-mysql:8.4.8
-redis:7.4.7
-springcommunity/spring-petclinic-config-server:3.4.1
-springcommunity/spring-petclinic-discovery-server:3.4.1
-springcommunity/spring-petclinic-customers-service:3.4.1
-springcommunity/spring-petclinic-visits-service:3.4.1
-springcommunity/spring-petclinic-vets-service:3.4.1
-springcommunity/spring-petclinic-genai-service:3.4.1
-springcommunity/spring-petclinic-api-gateway:3.4.1
-springcommunity/spring-petclinic-admin-server:3.4.1
+#mysql:8.4.8
+#redis:7.4.7
+#springcommunity/spring-petclinic-config-server:3.4.1
+#springcommunity/spring-petclinic-discovery-server:3.4.1
+#springcommunity/spring-petclinic-customers-service:3.4.1
+#springcommunity/spring-petclinic-visits-service:3.4.1
+#springcommunity/spring-petclinic-vets-service:3.4.1
+#springcommunity/spring-petclinic-genai-service:3.4.1
+#springcommunity/spring-petclinic-api-gateway:3.4.1
+#springcommunity/spring-petclinic-admin-server:3.4.1
