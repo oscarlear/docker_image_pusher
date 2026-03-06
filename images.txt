@@ -83,8 +83,8 @@
 # middleware arm64 images
 #--platform=linux/arm64 nginx:1.27.5-alpine
 #--platform=linux/arm64 nginx:1.27.5
-#--platform=linux/arm64 nginx:1.28.0
---platform linux/arm64 node:20.11.1-alpine
+--platform=linux/arm64 nginx:1.28.2
+#--platform linux/arm64 node:20.11.1-alpine
 
 #calico/cni:v3.29.4
 #calico/node:v3.29.4
