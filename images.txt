@@ -60,7 +60,7 @@
 #--platform=linux/arm64 bitnami/harbor-jobservice:2.7.1
 #--platform=linux/arm64 bitnami/harbor-registryctl:2.7.1
 #--platform=linux/arm64 bitnami/harbor-exporter:2.7.1
---platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
 # kubernetes v1.32.2 amd64 images
 #registry.k8s.io/conformance:v1.32.2
@@ -83,7 +83,7 @@
 # middleware arm64 images
 #--platform=linux/arm64 nginx:1.27.5-alpine
 #--platform=linux/arm64 nginx:1.27.5
---platform=linux/arm64 nginx:1.28.2
+#--platform=linux/arm64 nginx:1.28.2
 #--platform linux/arm64 node:20.11.1-alpine
 
 #calico/cni:v3.29.4
@@ -109,3 +109,8 @@
 #springcommunity/spring-petclinic-genai-service:3.4.1
 #springcommunity/spring-petclinic-api-gateway:3.4.1
 #springcommunity/spring-petclinic-admin-server:3.4.1
+
+# kylin
+hxsoong/kylin:v10-sp2
+
+
