@@ -111,6 +111,9 @@
 #springcommunity/spring-petclinic-admin-server:3.4.1
 
 # kylin
-hxsoong/kylin:v10-sp2
+#hxsoong/kylin:v10-sp2
 
+# filebrowser
+filebrowser/filebrowser:v2.62.2-s6
+--platform=linux/arm64 filebrowser/filebrowser:v2.62.2-s6
 
