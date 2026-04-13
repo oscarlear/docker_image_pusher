@@ -92,6 +92,7 @@
 #calico/typha:v3.29.4
 #haproxy:2.2.16-alpine
 #golang:1.25.4-alpine
+golang:1.26.2-alpine
 #alpine:3.22.2
 #nginx:1.29.3
 #nginx:1.29-alpine3.22
@@ -114,6 +115,6 @@
 #hxsoong/kylin:v10-sp2
 
 # filebrowser
-filebrowser/filebrowser:v2.62.2-s6
---platform=linux/arm64 filebrowser/filebrowser:v2.62.2-s6
+#filebrowser/filebrowser:v2.62.2-s6
+#--platform=linux/arm64 filebrowser/filebrowser:v2.62.2-s6
 
