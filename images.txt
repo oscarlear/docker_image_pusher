@@ -99,6 +99,9 @@
 #nginx:1.29.3-alpine3.22-slim
 #nginx:1.29.4
 #nginx:1.29-alpine3.23
+nginx:1.31.1
+nginx:1.31-alpine
+nginx:1.31.1-alpine-slim
 
 #mysql:8.4.8
 #redis:7.4.7
@@ -117,5 +120,5 @@
 # filebrowser
 #filebrowser/filebrowser:v2.62.2-s6
 #--platform=linux/arm64 filebrowser/filebrowser:v2.62.2-s6
-svenstaro/miniserve:0.35.0-alpine
+#svenstaro/miniserve:0.35.0-alpine
 
