@@ -61,6 +61,7 @@
 #--platform=linux/arm64 bitnami/harbor-registryctl:2.7.1
 #--platform=linux/arm64 bitnami/harbor-exporter:2.7.1
 #--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+--platform=linux/arm64 kubesphere/kubectl:v1.33.4
 
 # kubernetes v1.32.2 amd64 images
 #registry.k8s.io/conformance:v1.32.2
@@ -79,6 +80,7 @@
 #k8s.gcr.io/pause:3.10
 #openebs/provisioner-localpv:3.3.0
 #openebs/linux-utils:3.3.0
+kubesphere/kubectl:v1.33.4
 
 # middleware arm64 images
 #--platform=linux/arm64 nginx:1.27.5-alpine
@@ -99,9 +101,9 @@
 #nginx:1.29.3-alpine3.22-slim
 #nginx:1.29.4
 #nginx:1.29-alpine3.23
-nginx:1.31.1
-nginx:1.31-alpine
-nginx:1.31.1-alpine-slim
+#nginx:1.31.1
+#nginx:1.31-alpine
+#nginx:1.31.1-alpine-slim
 
 #mysql:8.4.8
 #redis:7.4.7
@@ -121,4 +123,3 @@ nginx:1.31.1-alpine-slim
 #filebrowser/filebrowser:v2.62.2-s6
 #--platform=linux/arm64 filebrowser/filebrowser:v2.62.2-s6
 #svenstaro/miniserve:0.35.0-alpine
-
