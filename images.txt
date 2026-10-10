@@ -127,4 +127,7 @@
 # alpine
 #alpine:3.23.4
 #--platform=linux/arm64 alpine:3.23.4
---platform=linux/arm64 golang:1.26.3
+#--platform=linux/arm64 golang:1.26.3
+
+# nacos
+--platform=linux/arm64 nacos/nacos-server:v3.3.0-RC
