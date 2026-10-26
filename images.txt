@@ -133,4 +133,7 @@
 #--platform=linux/arm64 nacos/nacos-server:v3.3.0-RC
 
 # mysql
-mysql:5.7.30
+#mysql:5.7.30
+
+# coding
+golang:1.26.10
