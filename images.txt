@@ -143,10 +143,9 @@ alpine:3.20
 mirrorgooglecontainers/defaultbackend-amd64:1.4
 haproxy:2.0.25-alpine
 haproxy:2.8.12-alpine
-registry.k8s.io/kubectl:v1.21.14
-registry.k8s.io/kubectl:v1.30.2
-registry.k8s.io/kubectl:v1.32.2
-registry.k8s.io/kubectl:v1.36.1
+kubesphere/kubectl:v1.30.2
+kubesphere/kubectl:v1.32.2
+kubesphere/kubectl:v1.36.1
 quay.io/kubernetes-multicluster/kubefed:v0.10.0
 quay.io/minio/mc:RELEASE.2025-08-13T08-35-41Z
 registry.k8s.io/metrics-server/metrics-server:v0.5.2
